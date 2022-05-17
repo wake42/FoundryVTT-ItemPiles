@@ -10,6 +10,7 @@ import tormenta20 from "./systems/tormenta20.js";
 import wfrp4e from "./systems/wfrp4e.js"
 import splittermond from "./systems/splittermond.js"
 import sfrpg from "./systems/sfrpg.js"
+import rqg from ".systems/rqg.js"
 // ↑ IMPORT SYSTEMS HERE ↑
 
 /**
@@ -30,6 +31,7 @@ export const SYSTEMS = {
             wfrp4e,
             splittermond,
             sfrpg,
+            rqg
             // ↑ ADD SYSTEMS HERE ↑
         }?.[game.system.id];
     }
